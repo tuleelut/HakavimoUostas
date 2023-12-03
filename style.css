@@ -13,14 +13,14 @@ a, a:hover {
     margin-right: auto;
     flex-shrink: 0;
     
-    background-color: #FBFCFE;
+    background-color: transparent;
     
 
 
 }
 
-body {
-    background-color: blue;
+.header {
+    background: #EDF3F8;
 }
 
 .navigation ul {
