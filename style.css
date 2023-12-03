@@ -1,4 +1,12 @@
-.Ready {
+* {
+    box-sizing: border-box;
+}
+
+.box-1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    grid-column: 1 / span 2;
     width: 445px;
     color: #36536B;
     font-family: DM Serif Display;
@@ -8,4 +16,11 @@
     line-height: 56px;
     /* 116.667% */
     letter-spacing: -0.369px;
+}
+
+table{
+    width: 600px;
+}
+table, td{
+    border: 1px snow;
 }
