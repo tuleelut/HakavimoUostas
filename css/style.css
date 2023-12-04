@@ -161,6 +161,7 @@ button {
 .img {
     display: flex;
     justify-content: space-around;
+    margin: 200px 165px 100px 165px;
 }
 
 .img img {
@@ -200,25 +201,6 @@ button {
     width: 350px;
     padding-top: 32px;
     padding-bottom: 16px;
-}
-
-.img17 {
-    margin-top: 2439px;
-    margin-bottom: 521px;
-    margin-left: 165px;
-}
-
-.img18 {
-    margin-top: 2439px;
-    margin-bottom: 521px;
-    margin-left: 30px;
-}
-
-.img19 {
-    margin-top: 2439px;
-    margin-bottom: 521px;
-    margin-left: 30px;
-    margin-right: 165px;
 }
 
 /* 7 */
