@@ -176,6 +176,34 @@ button {
 /* 4 */
 
 /* 5 */
+.container-wrapper{
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  background-color:#EDF3F8;
+}
+
+.head-ui, .paragraph-ui{
+  font-style: normal;
+   width: 445px;
+   font-weight: 400; 
+   margin-left: 185px;
+}
+.head-ui{
+  color: #36536B;
+  font-family: 'DM Serif Display', serif;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: -0.369px;
+  margin-top: 220px;
+  margin-bottom: 24px;
+}
+.paragraph-ui{
+  color: #6C8294;
+  font-family: 'Public Sans', sans-serif;
+  font-size: 15px;
+  line-height: 28px; 
+}
+
 
 /* 6 */
 .img {
