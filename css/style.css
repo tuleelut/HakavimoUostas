@@ -88,6 +88,8 @@ a:hover {
 
 /* 3 */
 
+/* Original styles */
+
 .third-container {
   width: 100%;
   background: #1b262f;
@@ -129,7 +131,6 @@ button {
   border: 1px solid #fff;
   background-color: transparent;
   margin-top: 20px;
-
   text-align: center;
   font-family: Public Sans;
   font-size: 15px;
@@ -159,6 +160,43 @@ button {
   display: flex;
   margin: 54px 163px 0px 0px;
 }
+
+
+@media screen and (max-width: 768px) {
+  .third-container {
+    flex-direction: column;
+  }
+
+  .left-side {
+    margin: 50px 20px;
+  }
+
+  .left-side h1 {
+    font-size: 36px;
+  }
+
+  .left-side .text {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .left-side button {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+
+  .right-side img {
+    width: 100px;
+    height: 24px;
+    margin-right: 0;
+  }
+
+  .first-row,
+  .second-row {
+    margin: 20px 0;
+  }
+}
+
 
 /* 4 */
 
@@ -302,6 +340,7 @@ footer {
 
 .logo {
   display: inline-block;
+  margin-left: 10%;
 }
 
 .footer {
@@ -335,10 +374,11 @@ footer {
   display: flex;
   margin-left: auto; 
   margin-top: 20px; 
+  margin-right: 10%;
 }
 
 .icons img {
-  padding-left: 12px; 
+  padding-left: 30px; 
 }
 
 @media screen and (max-width: 768px) {
