@@ -181,7 +181,6 @@ button {
   margin: 54px 163px 0px 0px;
 }
 
-
 @media screen and (max-width: 768px) {
   .third-container {
     flex-direction: column;
@@ -216,7 +215,6 @@ button {
     margin: 20px 0;
   }
 }
-
 
 /* 4 */
 
@@ -324,7 +322,6 @@ button {
   padding-bottom: 16px;
 }
 
-
 @media screen and (max-width: 768px) {
   .img {
     flex-direction: column;
@@ -342,7 +339,6 @@ button {
     padding: 0 20px;
   }
 }
-
 
 /* 7 */
 .container {
@@ -401,7 +397,6 @@ button {
   border: none;
 }
 
-
 @media screen and (max-width: 768px) {
   .container {
     grid-template-columns: 1fr;
@@ -431,16 +426,16 @@ footer {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  padding: 31px 20px; 
+  padding: 31px 20px;
   width: 100%;
-  height: auto; 
+  height: auto;
   box-sizing: border-box;
 }
 
 .footer-links {
   display: flex;
   list-style: none;
-  margin-top: 20px; 
+  margin-top: 20px;
 }
 
 .footer-items a {
@@ -451,23 +446,23 @@ footer {
   font-family: Public Sans;
   font-weight: 700;
   opacity: 0.7;
-  margin-left: 20px; 
+  margin-left: 20px;
 }
 
 .footer .icons {
   display: flex;
-  margin-left: auto; 
-  margin-top: 20px; 
+  margin-left: auto;
+  margin-top: 20px;
   margin-right: 10%;
 }
 
 .icons img {
-  padding-left: 30px; 
+  padding-left: 30px;
 }
 
 @media screen and (max-width: 768px) {
   .footer {
-    padding: 20px; 
+    padding: 20px;
   }
 
   .footer-items a {
@@ -493,12 +488,59 @@ footer {
   font-size: 56px;
   font-style: normal;
   font-weight: 400;
-  line-height: 56px; /* 100% */
+  line-height: 56px; 
   letter-spacing: -0.431px;
+  text-align: left;
+  padding-right: 42%;
 }
 .first-text {
   display: flex;
+  text-align: left;
+  padding-bottom: 5%;
+}
+.first-text h2 {
+  margin-right: 16%;
+  white-space: nowrap;
+  color: #36536b;
+
+  font-family: DM Serif Display;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; 
+  letter-spacing: -0.246px;
+}
+.first-text p {
+  color: #6c8294;
+  font-family: Public Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; 
+  padding-top: 1%;
+}
+
+.second-text h2 {
+  margin-right: 13%;
+  white-space: nowrap;
+  color: #36536b;
+  font-family: DM Serif Display;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; 
+  letter-spacing: -0.246px;
 }
 .second-text {
   display: flex;
+  text-align: left;
+}
+.second-text p {
+  color: #6c8294;
+  font-family: Public Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; 
+  padding-right: 25%;
 }
