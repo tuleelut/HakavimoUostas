@@ -66,10 +66,8 @@ a:hover {
   background: #ba4270;
   padding: 0;
   border: none;
-
   box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
   color: #fbfcfe;
-
   font-family: Public Sans;
   font-size: 15px;
   font-style: normal;
@@ -84,11 +82,33 @@ a:hover {
   background: #da6d97;
 }
 
+@media screen and (max-width: 768px) {
+  .navigation {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .navigation ul {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  .navigation li {
+    margin: 0;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .navigation .button {
+    margin-top: 10px;
+    margin-left: 0;
+  }
+}
 /* 2 */
 
 /* 3 */
-
-/* Original styles */
 
 .third-container {
   width: 100%;
